@@ -61,7 +61,10 @@ DashboardAI revolutionizes data analysis by leveraging a powerful AI agent built
 
 * [![Streamlit][Streamlit-shield]][Streamlit-url]
 * [![LangChain][LangChain-shield]][LangChain-url]
+* [![LangGraph][LangGraph-shield]][LangGraph-url]
 * [![Plotly][Plotly-shield]][Plotly-url]
+* [![Pandas][Pandas-shield]][Pandas-url]
+* [![Google Gemini][Gemini-shield]][Gemini-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,22 +74,47 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This project uses Python and requires `pip` for package management.
-* pip
+This project uses Python. You can use `pip` or `uv` for package management.
+
+* To install `pip` dependencies:
   ```sh
   pip install --upgrade pip
+  ```
+* To install `uv`:
+  ```sh
+  pip install uv
   ```
 
 ### Setup
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/drod75/DashboardAI.git
-   ```
-2. Install Python packages
-   ```sh
-   pip install -r requirements.txt
-   ```
+1.  **Clone the repo**
+    ```sh
+    git clone https://github.com/drod75/DashboardAI.git
+    ```
+2.  **Install packages**
+    <details>
+    <summary>Using pip</summary>
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+    </details>
+    <details>
+    <summary>Using uv</summary>
+
+    Create a virtual environment and install packages:
+    ```sh
+    # Create venv
+    uv venv
+
+    # Activate virtual environment
+    # On Windows: .\.venv\Scripts\activate
+    # On macOS/Linux: source .venv/bin/activate
+
+    # Install dependencies
+    uv pip install -r requirements.txt
+    ```
+    </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,3 +179,9 @@ LinkedIn: [https://www.linkedin.com/in/david-rodriguez-nyc/](https://www.linkedi
 [LangChain-url]: https://www.langchain.com/
 [Plotly-shield]: https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white
 [Plotly-url]: https://plotly.com/
+[Pandas-shield]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org/
+[Gemini-shield]: https://img.shields.io/badge/Google-Gemini-blue?style=for-the-badge&logo=google-gemini
+[Gemini-url]: https://deepmind.google/technologies/gemini/
+[LangGraph-shield]: https://img.shields.io/badge/LangGraph-1f2937?style=for-the-badge
+[LangGraph-url]: https://github.com/langchain-ai/langgraph
