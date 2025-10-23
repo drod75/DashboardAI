@@ -51,8 +51,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/drod75/DashboardAI)
-
 DashboardAI revolutionizes data analysis by leveraging a powerful AI agent built with LangChain. This tool provides an intuitive Streamlit interface to automate the creation of insightful dashboards. Users can effortlessly upload various file types and watch as the agent processes the data, generating dynamic and informative graphs with Plotly Express. Say goodbye to manual dashboard configuration and hello to intelligent, on-the-fly data visualization.
 
 <img src="./public/flow.png" alt='logo' width=800>
@@ -153,7 +151,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
