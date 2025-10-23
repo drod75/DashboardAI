@@ -55,6 +55,8 @@
 
 DashboardAI revolutionizes data analysis by leveraging a powerful AI agent built with LangChain. This tool provides an intuitive Streamlit interface to automate the creation of insightful dashboards. Users can effortlessly upload various file types and watch as the agent processes the data, generating dynamic and informative graphs with Plotly Express. Say goodbye to manual dashboard configuration and hello to intelligent, on-the-fly data visualization.
 
+<img src="./public/flow.png" alt='logo' width=800>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
